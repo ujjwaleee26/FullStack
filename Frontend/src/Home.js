@@ -3,6 +3,7 @@ import './Home.css';
 import images from './images.png'
 import host from './host.webp'
 import upcoming from './upcoming.png'
+import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="home">
@@ -33,7 +34,7 @@ function Home() {
         <div className="card">
           <img src={upcoming} alt="Card 3" />
           <h2>Upcoming Trips</h2>
-          <p><button className='btn btn-success w-10 rounded-0'>View Details</button></p>
+          <p><Link to="/upcomingtrip" className='btn btn-success w-10 rounded-0'>View Details</Link></p>
         </div>
       </div>
     </div>
