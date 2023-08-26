@@ -1,0 +1,59 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the header */
+  .navbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Styling for navigation links */
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Styling for the card container */
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  /* Styling for individual cards */
+  .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .card h2 {
+    margin-top: 1rem;
+  }
+  
+  .card p {
+    margin-top: 0.5rem;
+  }
+  
