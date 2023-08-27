@@ -1,4 +1,5 @@
-<img width="1402" alt="Screenshot 2023-08-26 at 1 58 28 PM" src="https://github.com/ujjwaleee26/FullStack/assets/138270264/747bd3b1-bef8-4648-b083-6907b952818e">
+<img width="1420" alt="Screenshot 2023-08-27 at 11 09 12 AM" src="https://github.com/ujjwaleee26/FullStack/assets/138270264/00575f53-4d45-4d57-ba01-e778b046ff5f">
+
 
 <img width="1440" alt="Screenshot 2023-08-26 at 2 02 16 PM" src="https://github.com/ujjwaleee26/FullStack/assets/138270264/9f01f89a-73e7-422c-a6d1-f6c08998c3d5">
 
