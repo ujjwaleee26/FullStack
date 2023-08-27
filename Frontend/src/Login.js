@@ -39,6 +39,7 @@ function Login()
       Sign-In
     </Link>
   </form>
+  <Link to="/signup">New user? Sign Up </Link>
 </div>
   
     
