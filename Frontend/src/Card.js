@@ -40,24 +40,24 @@ function Card() {
       
 
       <div class="container">
-  <div class="box">what the fuck</div>
+  <div class="box">what the </div>
 </div>
 <div class="container">
-  <div class="box">what the fuck</div>
+  <div class="box">what the </div>
 </div>
 <div class="container">
-  <div class="box">what the fuck</div>
-</div>
-
-<div class="container">
-  <div class="box">what the fuck</div>
+  <div class="box">what the</div>
 </div>
 
 <div class="container">
-  <div class="box">what the fuck</div>
+  <div class="box">what the </div>
+</div>
+
+<div class="container">
+  <div class="box">what the </div>
 </div>
 <div class="container">
-  <div class="box">what the fuck</div>
+  <div class="box">what the </div>
 </div>
 
     </div>
