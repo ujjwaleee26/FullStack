@@ -17,21 +17,21 @@ function Login()
  
   return (
 
-        <div class="login-box">
+        <div className="login-box">
                <h2>Sign-In</h2>
                 <form action='' onSubmit={submitHandler}> 
-                   <div class="user-box">
+                   <div className="user-box">
                         <input type="email"  required=""   name='email' onChange={handleChange}/>
                         {errors.email && <span className='text-danger'>{errors.email}</span>}
                         <label htmlFor='email'>Email</label>
                   </div>
-                  <div class="user-box">
+                  <div className="user-box">
                         <input type="password"  required=""   name='password' onChange={handleChange}/>
                         {errors.password && <span className='text-danger'>{errors.password}</span>}
                         <label htmlFor='password'>Password</label>
                   </div>
     
-    <Link to="/home" href="#">
+    <Link to="/homepage" href="#">
       <span></span>
       <span></span>
       <span></span>
@@ -40,6 +40,8 @@ function Login()
     </Link>
   </form>
   <Link to="/signup">New user? Sign Up </Link>
+  <p></p>
+  <Link to="/">Home </Link>
 </div>
   
     
