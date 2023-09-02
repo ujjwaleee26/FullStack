@@ -50,8 +50,8 @@ const App = () => {
             placeholder="To"
             buttonText="Go"
           />
-          {/* <Card item={item} /> */}
           <Card  />
+          
         </div>
       </div>
     </>
