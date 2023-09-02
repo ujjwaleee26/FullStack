@@ -32,16 +32,36 @@
 // };
 // export default Card;
 
-import React from 'react'
+import React, { useState} from 'react'
 import './Card.css'
-function Card() {
+import chatIcon from './chatIcon.jpg';
+import { Link } from 'react-router-dom';
+function Card()
+ {
+  const [showPopup, setShowPopup] = useState(false);
+   
+  
   return (
     <div className='space'>
-      
+          <div class="container">
+          <div class="box">
+            <Link to='/otp'>
+          <img
+            src={chatIcon}
+            onMouseEnter={() => setShowPopup(true)}
+            onMouseLeave={() => setShowPopup(false)}
+            
+            alt="Chat Icon"
+          ></img>
+          </Link>
+          {showPopup && (
+            <div className="popup">
+              Wanna chat? Verify your phone number first.
+            </div>
+          )}
+        </div>    
+     </div>
 
-      <div class="container">
-  <div class="box">what the </div>
-</div>
 <div class="container">
   <div class="box">what the </div>
 </div>
