@@ -1,12 +1,12 @@
 import React from 'react';
-import Login from './Login';
-import SignUp from './SignUp';
+import Login from './LoginPage/Login';
+import SignUp from './SignUpPage/SignUp';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import UpcomingTrips from './UpcomingTrips';
-import Homepage from './Homepage';
-import HeroSection from './HeroSection';
-import O from './O';
-import ChatRoom from './ChatRoom';
+import UpcomingTrips from './UpcomigContent/UpcomingTrips';
+import Homepage from './UserDashBoard/Homepage';
+import HeroSection from './IntroPage/HeroSection';
+import O from './UpcomigContent/O';
+import ChatRoom from './UpcomigContent/ChatRoom';
 
 function App() {
   return (

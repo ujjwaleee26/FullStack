@@ -34,7 +34,7 @@
 
 import React, { useState} from 'react'
 import './Card.css'
-import chatIcon from './chatIcon.jpg';
+import chatIcon from '../Images/chatIcon.jpg'
 import { Link } from 'react-router-dom';
 function Card()
  {
