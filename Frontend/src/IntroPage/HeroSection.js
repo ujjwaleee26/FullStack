@@ -18,7 +18,7 @@ const HeroSection = () => {
           ></div>
           <div className="card__content">
             <p className="card__category">Category</p>
-            <h3 className="card__heading">Example Card Heading</h3>
+            <h3 className="card__heading">Example  Card Heading</h3>
           </div>
         </a>
         <a className="card" href="#">
